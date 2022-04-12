@@ -604,6 +604,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ingresoUsuario: {fileID: 2105057645}
+  textomsj: {fileID: 1726851229}
+  cartel: {fileID: 1122441732}
 --- !u!4 &1022821308
 Transform:
   m_ObjectHideFlags: 0
@@ -635,7 +637,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1122441733
 RectTransform:
   m_ObjectHideFlags: 0
@@ -653,8 +655,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 13, y: -19}
-  m_SizeDelta: {x: -514.05896, y: -371.42975}
+  m_AnchoredPosition: {x: -0.000024796, y: 97}
+  m_SizeDelta: {x: -474.69458, y: -524.80884}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1122441734
 MonoBehaviour:
@@ -669,7 +671,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.06959773, g: 0.25399518, b: 0.8679245, a: 0.392}
+  m_Color: {r: 0.06959773, g: 0.25399518, b: 0.8679245, a: 0.7647059}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1013,10 +1015,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 39
-    m_FontStyle: 0
+    m_FontSize: 45
+    m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 4
     m_MaxSize: 51
     m_Alignment: 4
     m_AlignByGeometry: 0
